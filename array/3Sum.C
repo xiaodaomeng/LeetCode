@@ -13,6 +13,7 @@ The solution set must not contain duplicate triplets.
 */
 class Solution {
 public:
+    //method 1: time O(n^2),space O(1)
     vector<vector<int> > threeSum(vector<int> &num) {
         vector<vector<int>> res;
         if(num.size()<3) return res;
